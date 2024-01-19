@@ -1,0 +1,286 @@
+/* Geral */
+/* *
+{
+    font-family: 'Roboto';
+} */
+
+body
+{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header
+{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row
+{
+    margin: 0;
+}
+
+.container-fluid
+{
+    padding: 0;
+}
+
+.msg
+{
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+/* navbar */
+#navbar img
+{
+    width: 40px;
+}
+
+#navbar
+{
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+#navbar a
+{
+    font-size: 14px;
+    color: #757575;
+}
+
+#navbar a:hover
+{
+    color: #de19f0;
+}
+
+#search-container
+{
+    background-image: url("../img/fundo.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1
+{
+    color: #09acec;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#premio-container
+{
+    padding: 50px;
+}
+
+#cards-container
+{
+    display: flex;
+    margin: 5px;
+}
+
+#premio-container .card
+{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+}
+
+.card .card-date
+{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.card .card-title
+{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#premio-container img
+{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Pagina de criação de premio */
+#premio-create-container
+{
+    padding: 30px;
+}
+
+#premio-create-container label
+{
+    font-weight: bold;
+}
+
+/* Pagina de visualizar premio */
+#image-container,
+#info-container
+{
+    margin-top: 30px;
+}
+
+#image-container
+{
+    border-radius: 10px;
+}
+
+#info-container h1
+{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container
+{
+    margin: 10;
+    font-size: 14px;
+}
+
+#info-container ion-icon
+{
+    font-size: 20px;
+    color: #02fad9;
+    margin-right: 5px;
+}
+/* footer */
+footer
+{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    display: flexbox;
+    bottom: 0;
+    width: 100%;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+
+footer p
+{
+    margin-bottom: 0;
+}
+
+label
+{
+    margin-left: 10px;
+}
+
+.nav-link
+{
+    color: white;
+}
+
+.form-control-dark
+{
+    align-items: start;
+}
+
+body 
+{
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button 
+{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 24px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover 
+{
+    background-color: #3e8e41;
+}
+
+#result 
+{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.popup 
+{
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.popup.active 
+{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.popup-inner 
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    text-align: center;
+    position: relative;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+.popup-close 
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #999;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+  
